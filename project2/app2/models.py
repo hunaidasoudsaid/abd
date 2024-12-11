@@ -3,7 +3,7 @@ from django.db import models
 
 class chairperson(models.Model):
     GENDER_CHOICES = {
-        'M':'MALE',
+        'M':'MALES',
         'F':'FEMALE',
     }
     name = models.CharField(max_length=20)
